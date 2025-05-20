@@ -9,8 +9,9 @@ https://docs.djangoproject.com/en/5.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
-
+#Aqui config tolo el proyecto
 from pathlib import Path
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -22,9 +23,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-6qd=wp8f&jp84%tjsf(o+a7*-hi6od##vt(nz@*zb0y*cy8(&z'
 
+#en porduccion ya no se deb edar tanta info
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+#permite al server que direcciones tiene permitido consultar a nuestro server
 ALLOWED_HOSTS = []
 
 
